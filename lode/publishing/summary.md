@@ -3,7 +3,7 @@
 The project is licensed **CC BY-NC 4.0** (`LICENSE` = a short preamble plus the official
 legal code; © 2026 James Fryman). It is published as a remix of both 590236 (CC BY) and
 758393 (CC BY-NC) and inherits the stricter license; the user chose this deliberately.
-The STL and SCAD go to Printables once the print is validated. Credits live in `README.md` § Credits and in
+The source is public at https://github.com/jfryman/nomad-skadis-mount (branch `main`). The STL and SCAD go to Printables once the print is validated. Credits live in `README.md` § Credits and in
 the SCAD header comment. Related: [../mount/printing.md](../mount/printing.md), [../plans/roadmap.md](../plans/roadmap.md).
 
 ## Upstream references
