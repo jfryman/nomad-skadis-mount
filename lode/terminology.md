@@ -1,0 +1,23 @@
+# Terminology
+
+- Nomad - Sega Nomad handheld Genesis (1995); held here in landscape, screen facing out.
+- Button end - the -x end of the Nomad (ABC/XYZ buttons); the shorter end (100mm tall).
+- D-pad end - the +x end; it has the cylindrical grip and is the taller end (107mm).
+- Grip - the near-cylindrical D-pad hand grip; it bulges 4mm behind the flat back.
+- Flat back - the plane of the Nomad's back with no battery pack (y = 0 in the Nomad frame).
+- Top slope - the Nomad's top edge rises 7mm from the button end to the D-pad end.
+- Footprint - 2D top-view outline of the Nomad (`footprint()`).
+- Cavity - footprint offset by `clr` and extruded upward; subtracted from the solid.
+- Tray - floor, end walls and front lip that cradle the bottom of the Nomad.
+- Plate - the vertical back slab whose rear face sits flat against the pegboard.
+- Grip pocket - the relief cut into the plate that takes the grip bulge.
+- Wrap - how far the end walls return onto the front face (`wrap_btn`, `wrap_dpad`).
+- Lip - the low front wall under the screen bezel (`lip_h`).
+- Recline - the tilt of the tray back from vertical, about the x axis (`recline`).
+- Nomad frame - coordinates aligned to the Nomad (before recline).
+- Mount frame - final coordinates; the pegboard is the vertical plane `y = plate_back_y()`.
+- SKÅDIS - IKEA pegboard: 5mm board with 5x15mm slots on a staggered 20mm grid.
+- Drop-hook - L-shaped peg: a stem goes through the slot and a leg drops behind the board.
+- Stem - horizontal part of the hook; it rests on the bottom of the slot.
+- Leg - vertical part of the hook behind the board; it stops the mount pulling forward.
+- Print orientation - the part stood on its button end so the hook profiles lie in the layer plane.
